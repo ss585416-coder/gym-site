@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?q=80&w=1200" alt="Juice">
+        <h3>Mango Juice</h3>
+        <p>₹99</p>
+        <button onclick="addToCart('Mango Juice',99)">Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=1200" alt="Salad">
+        <h3>Healthy Veg Salad</h3>
+        <p>₹149</p>
+        <button onclick="addToCart('Healthy Veg Salad',149)">Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=1200" alt="Sandwich">
+        <h3>Grilled Sandwich</h3>
+        <p>₹119</p>
+        <button onclick="addToCart('Grilled Sandwich',119)">Add to Cart</button>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="cart-section">
+    <h2>Your Cart</h2>
+
+    <div id="cart-items"></div>
+
+    <div class="payment-box">
+      <h3>Select Payment Method</h3>
+
+      <label>
+        <input type="radio" name="payment" value="UPI" checked>
+        UPI Payment
+      </label>
+
+      <label>
+        <input type="radio" name="payment" value="Card">
+        Debit/Credit Card
+      </label>
+
+      <label>
+        <input type="radio" name="payment" value="COD">
+        Cash on Delivery (+₹20)
+      </label>
+
+      <h3 id="total">Total: ₹0</h3>
+
+      <button class="pay-btn" onclick="placeOrder()">Place Order</button>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Heena Cafe</h2>
+    <p>
+      Heena Cafe is a premium pure veg restaurant serving delicious fast foods,
+      fresh juices, burgers, pizza, pasta and healthy meals with fast delivery.
+    </p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Heena Cafe, Rajasthan, India</p>
+    <p>📞 +91 9876543210</p>
+    <p>📧 heenacafe@gmail.com</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Heena Cafe | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
