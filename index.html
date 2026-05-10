@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Power Gym</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <h1>POWER GYM</h1>
+
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Pricing</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+
+    <div class="hero-content">
+      <h2>Build Your Dream Body</h2>
+
+      <p>
+        Join the best fitness gym and transform yourself today.
+      </p>
+
+      <button class="btn" onclick="joinGym()">
+        Join Now
+      </button>
+    </div>
+
+  </section>
+
+  <!-- Services -->
+  <section class="services">
+
+    <h2>Our Services</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>Weight Training</h3>
+
+        <p>
+          Professional equipment for muscle building and strength.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Cardio Training</h3>
+
+        <p>
+          Improve stamina and burn calories with cardio workouts.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Personal Trainer</h3>
+
+        <p>
+          Get personal guidance from experienced trainers.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Pricing -->
+  <section class="pricing">
+
+    <h2>Membership Plans</h2>
+
+    <div class="price-boxes">
+
+      <div class="price-box">
+        <h3>Basic</h3>
+
+        <div class="price">₹999</div>
+
+        <p>1 Month Access</p>
+      </div>
+
+      <div class="price-box">
+        <h3>Standard</h3>
+
+        <div class="price">₹2499</div>
+
+        <p>3 Month Access</p>
+      </div>
+
+      <div class="price-box">
+        <h3>Premium</h3>
+
+        <div class="price">₹4999</div>
+
+        <p>1 Year Access</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Contact -->
+  <section class="contact">
+
+    <h2>Contact Us</h2>
+
+    <form onsubmit="sendMessage(event)">
+
+      <input type="text" placeholder="Your Name" required>
+
+      <input type="email" placeholder="Your Email" required>
+
+      <textarea rows="5" placeholder="Your Message"></textarea>
+
+      <button class="btn">
+        Send Message
+      </button>
+
+    </form>
+
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Power Gym. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
